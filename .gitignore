@@ -1,0 +1,13 @@
+tmp/
+__pycache__/
+.venv/
+.env
+data/
+evidence/
+*.db
+*.db-wal
+*.db-shm
+*.pcap
+*.pcapng
+*.pem
+*.key

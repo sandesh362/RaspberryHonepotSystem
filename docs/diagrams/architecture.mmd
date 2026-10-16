@@ -1,0 +1,30 @@
+flowchart TB
+  T[Authorized test client / test VM] -->|SSH 2222; Telnet 2223 opt-in; HTTP 8080| HP
+  subgraph PI[Raspberry Pi 4 or 5 - isolated lab sensor]
+    HP[Cowrie emulated shell + separate HTTP decoy]
+    NIC[eth0 traffic arriving at Pi]
+    IDS[Suricata passive capture and SYN observations]
+    A[Unprivileged collector + bounded disk spool]
+    RAW[Rotated raw logs + session recordings]
+    NIC --> IDS
+    HP --> RAW
+    IDS --> RAW
+    RAW --> A
+  end
+  T -->|TCP probes including closed ports| NIC
+  A -->|Pinned TLS + per-device token; event batches and heartbeat| ING
+  subgraph CP[Laptop - control plane]
+    ING[Reverse proxy :8443 + FastAPI ingestion]
+    W[Single writer: validate, deduplicate, correlate, detect]
+    DB[SQLite WAL + raw archive + evidence manifests]
+    ML[Versioned rules + Random Forest + Isolation Forest]
+    API[Authenticated API + resumable SSE stream]
+    UI[React + TypeScript dashboard]
+    ING --> W
+    W <--> ML
+    W --> DB
+    DB --> API
+    API --> UI
+  end
+  UI -->|Case export request| API
+  API --> E[Bounded export job: ZIP evidence + PDF report]

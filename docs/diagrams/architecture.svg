@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="509.27559055118115" height="313" preserveAspectRatio="xMinYMin meet" viewBox="0 0 509 313" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="509.27559055118115" height="313"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-313)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="252" width="509.27559055118115" height="54" rx="5" ry="0" style="stroke: rgb(83%,87%,89%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="11" y="286" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(7%,16%,22%); stroke:none;" transform="translate(0,572) scale(1,-1)">AUTHORIZED LAB CLIENT</text>
+			<text x="11" y="270" style="font-family: Helvetica; font-size: 8.6px;fill: rgb(14%,23%,29%); stroke:none;" transform="translate(0,540) scale(1,-1)">Bounded scan, fake authentication and inert shell / HTTP requests</text>
+			<rect x="0" y="94" width="235" height="140" rx="5" ry="0" style="stroke: rgb(83%,87%,89%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="265" y="94" width="244.27559055118115" height="140" rx="5" ry="0" style="stroke: rgb(83%,87%,89%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="11" y="216" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(0%,49%,50%); stroke:none;" transform="translate(0,432) scale(1,-1)">RASPBERRY PI / SENSOR</text>
+			<text x="276" y="216" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(0%,49%,50%); stroke:none;" transform="translate(0,432) scale(1,-1)">LAPTOP / CONTROL PLANE</text>
+			<rect x="11" y="151" width="213" height="52" rx="5" ry="0" style="stroke: rgb(83%,87%,89%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="22" y="183" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(7%,16%,22%); stroke:none;" transform="translate(0,366) scale(1,-1)">Cowrie + HTTP decoy</text>
+			<text x="22" y="167" style="font-family: Helvetica; font-size: 8.6px;fill: rgb(14%,23%,29%); stroke:none;" transform="translate(0,334) scale(1,-1)">Suricata observes traffic reaching eth0</text>
+			<rect x="11" y="105" width="213" height="38" rx="5" ry="0" style="stroke: rgb(83%,87%,89%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="22" y="123" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(7%,16%,22%); stroke:none;" transform="translate(0,246) scale(1,-1)">Collector + local spool</text>
+			<rect x="276" y="151" width="222.27559055118115" height="52" rx="5" ry="0" style="stroke: rgb(83%,87%,89%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="287" y="183" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(7%,16%,22%); stroke:none;" transform="translate(0,366) scale(1,-1)">FastAPI + analysis worker</text>
+			<text x="287" y="167" style="font-family: Helvetica; font-size: 8.6px;fill: rgb(14%,23%,29%); stroke:none;" transform="translate(0,334) scale(1,-1)">Rules / ML; SQLite + raw archive</text>
+			<rect x="276" y="105" width="222.27559055118115" height="38" rx="5" ry="0" style="stroke: rgb(83%,87%,89%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="287" y="123" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(7%,16%,22%); stroke:none;" transform="translate(0,246) scale(1,-1)">Authenticated API + SSE</text>
+			<path d="M 117,252 L 117,234 Z" style="stroke: rgb(0%,49%,50%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<polygon points="117 234, 114 240, 120 240" style="stroke: rgb(0%,49%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,50%); fill-rule: evenodd;"/>
+			<path d="M 117,151 L 117,143 Z" style="stroke: rgb(0%,49%,50%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<polygon points="117 143, 114 149, 120 149" style="stroke: rgb(0%,49%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,50%); fill-rule: evenodd;"/>
+			<path d="M 224,124 L 250,124 Z" style="stroke: rgb(0%,49%,50%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 250,124 L 250,177 Z" style="stroke: rgb(0%,49%,50%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 250,177 L 276,177 Z" style="stroke: rgb(0%,49%,50%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<polygon points="276 177, 270 180, 270 174" style="stroke: rgb(0%,49%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,50%); fill-rule: evenodd;"/>
+			<text x="237" y="147" style="font-family: Helvetica-Bold; font-size: 8px;fill: rgb(0%,49%,50%); stroke:none;" transform="translate(0,294) scale(1,-1)">TLS</text>
+			<path d="M 381,151 L 381,143 Z" style="stroke: rgb(0%,49%,50%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<polygon points="381 143, 378 149, 384 149" style="stroke: rgb(0%,49%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,50%); fill-rule: evenodd;"/>
+			<rect x="0" y="5" width="509.27559055118115" height="61" rx="5" ry="0" style="stroke: rgb(83%,87%,89%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="11" y="46" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(7%,16%,22%); stroke:none;" transform="translate(0,92) scale(1,-1)">REACT DASHBOARD + EVIDENCE EXPORT</text>
+			<text x="11" y="30" style="font-family: Helvetica; font-size: 8.6px;fill: rgb(14%,23%,29%); stroke:none;" transform="translate(0,60) scale(1,-1)">Live events and sessions; findings with reasons; sensor health</text>
+			<text x="11" y="17" style="font-family: Helvetica; font-size: 8.6px;fill: rgb(14%,23%,29%); stroke:none;" transform="translate(0,34) scale(1,-1)">Case PDF + ZIP; hashes and collection history; explicit LIVE / REPLAY mode</text>
+			<path d="M 381,94 L 381,66 Z" style="stroke: rgb(0%,49%,50%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<polygon points="381 66, 378 72, 384 72" style="stroke: rgb(0%,49%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,50%); fill-rule: evenodd;"/>
+		</g>
+	</g>
+</svg>
