@@ -11,3 +11,10 @@ evidence/
 *.pcapng
 *.pem
 *.key
+node_modules/
+frontend/dist/
+.pytest_cache/
+*.tsbuildinfo
+*.log
+.coverage
+coverage/
